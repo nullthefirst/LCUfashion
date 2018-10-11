@@ -10,6 +10,11 @@ const yStyle = {
   marginBottom: "1em"
 }
 
+const roundImg = {
+  marginTop: "20px",
+  borderRadius: "50%"
+}
+
 export default class SignUp extends Component {
 
   constructor() {
