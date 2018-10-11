@@ -9,12 +9,18 @@ const blockImg = {
   borderRadius: "5%"
 }
 
+const underline = {
+  textDecoration: "underline"
+}
+
 export default class Home extends Component {
   render() {
     return(
       <div>
 
-        <div class="container">
+        <h3 class="content">Invest In Your Future</h3>
+
+        <div class="content container">
           <div class="row">
             <div class="col"></div>
             <div class="col-12 col-sm-6">
@@ -24,7 +30,20 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <h3 class="content">WHAT ARE DEVELOPER STUDENT CLUBS?</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-sm-6">
+              <h3 style={underline}>Our Strengths</h3>
+              <p className="blue-text">Well-tailored curriculum</p>
+              <p className="blue-text">Training workshops by seasoned professionals</p>
+              <p className="blue-text">Conducive learning centre</p>
+              <p className="blue-text">... and lots more</p>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+
         <div class="container">
           <div class="row content">
             <div class="col"></div>
@@ -39,18 +58,6 @@ export default class Home extends Component {
                     </CardText>
                 </CardBody>
               </Card>
-            </div>
-            <div class="col"></div>
-          </div>
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col-12 col-sm-6">
-              <p className="blue-text">Technical skills: Throughout the program, students would be introduced to mobile app development courses developed by Google developers and Udacity.</p>
-              <p className="blue-text">Opportunity to acquire and demonstrate soft skills through leadership, team management, budget management, communication and project management skills.</p>
-              <p className="blue-text">Gain project-based work experience by identifying and solving local businesses’ problems using technology.</p>
             </div>
             <div class="col"></div>
           </div>
