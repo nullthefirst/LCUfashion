@@ -12,3 +12,7 @@ a:link, a:active, a:visited {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+h3 {
+  color: #f48fb1
+}

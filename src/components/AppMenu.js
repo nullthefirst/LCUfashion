@@ -28,7 +28,9 @@ class AppMenu extends Component {
         <div>
           <Navbar color="light-blue" dark expand="md" scrolling>
             <NavbarBrand href="/">
-                <strong>Lead City Fashion & Lifestyle Academy</strong>
+                <strong>Lead City Fashion</strong>
+                <br />
+                <strong>& Lifestyle Academy</strong>
             </NavbarBrand>
             { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
             <Collapse isOpen = { this.state.collapse } navbar>
