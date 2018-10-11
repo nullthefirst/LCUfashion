@@ -10,9 +10,11 @@ const yStyle = {
   marginBottom: "1em"
 }
 
-const roundImg = {
+const controlImg = {
   marginTop: "20px",
-  borderRadius: "50%"
+  borderRadius: "50%",
+  width: "200px",
+  height: "200px"
 }
 
 export default class SignUp extends Component {
@@ -42,7 +44,7 @@ export default class SignUp extends Component {
 
           <h3 class="content">Sign Up For Lead City Fashion & Lifestyle Academy</h3> 
 
-          <img style={roundImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" />
+          <img style={controlImg} src="https://res.cloudinary.com/poetrique/image/upload/v1539293123/clients/leadcityfashion/lcfla-logo.png" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
           
           <div class="row content">
             <div class="col"></div>
@@ -56,7 +58,7 @@ export default class SignUp extends Component {
             <div class="col"></div>
             <div class="col">
               {this.renderRedirect()}
-              <Button style={yStyle} type="submit"  color="success" onClick={this.setRedirect}>Continue</Button>
+              <Button style={yStyle} type="submit" color="pink" onClick={this.setRedirect}>Continue</Button>
             </div>
             <div class="col"></div>
           </div>
