@@ -3,8 +3,9 @@ import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLi
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './views/home';
-import About from './views/about';
 import SignUp from './views/sign_up';
+import Facilities from './views/facilities';
+import About from './views/about';
 
 class AppMenu extends Component {
   constructor(props) {
@@ -27,7 +28,7 @@ class AppMenu extends Component {
         <div>
           <Navbar color="light-blue" dark expand="md" scrolling>
             <NavbarBrand href="/">
-                <strong>DSC Lead City University</strong>
+                <strong>Lead City Fashion & Lifestyle Academy</strong>
             </NavbarBrand>
             { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
             <Collapse isOpen = { this.state.collapse } navbar>
@@ -36,10 +37,13 @@ class AppMenu extends Component {
                   <NavLink to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/workshops">About</NavLink>
+                  <NavLink to="/sign_up">Sign Up</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink to="/sign_up">Sign Up</NavLink>
+                  <NavLink to="/facilities">Facilities</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink to="/about">About</NavLink>
                 </NavItem>
               </NavbarNav>
             </Collapse>
@@ -47,6 +51,7 @@ class AppMenu extends Component {
 
           <Route exact path="/" component={Home} />
           <Route path="/sign_up" component={SignUp} />
+          <Route path="/facilities" component={Facilities} />
           <Route path="/about" component={About} />
         </div>
       </Router>

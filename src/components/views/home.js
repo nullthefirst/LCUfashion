@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Card, CardBody, CardTitle, CardText } from 'mdbreact';
 
 import '../App.css';
 
@@ -16,12 +17,19 @@ export default class Home extends Component {
 
         <h3 class="white-text content">WHAT ARE DEVELOPER STUDENT CLUBS?</h3>
         <div class="container">
-          <div class="row">
+          <div class="row content">
             <div class="col"></div>
-            <div class="col-12 col-sm-6">
-              <p className="blue-text">DSC is a Google Developers program for university students, designed to help them build their mobile and web development skills and knowledge. It is open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills. It is intended to be a space for students to learn and collaborate as they solve mobile and web development problems.</p>
-              <p className="blue-text">This is part of Google’s commitment to provide mobile developer training to 100,000 Africans to develop world-class apps in the next 5 years. The Developer Student Clubs (DSC) is a grassroots channel through which we provide development skills for students, towards employability. The program invites students enrolled in African universities to act as “agent of change” on their campus(es).</p>
-              <p className="blue-text">DSCs follow a model of peer-to-peer learning. We select student Leads who train other students, help them apply the skills by developing solutions for local businesses, and host showcases for students to present their prototypes/solutions. This not only upskills current developers, but also inspires new developers thus realizing rapid scale.</p>
+            <div class="col-12 col-sm-8">
+              <Card>
+                <CardBody>
+                  <CardTitle>Introduction to Web Development & Github</CardTitle>
+                  <CardText>
+                    <p>Venue: ROC World Entrepreneurial Development Centre, Vocational Unit 1 Building</p>
+                    <br />
+                    <p><b>Lead City University, Ibadan - NG</b></p>
+                    </CardText>
+                </CardBody>
+              </Card>
             </div>
             <div class="col"></div>
           </div>
