@@ -3,9 +3,10 @@ import { Card, CardBody, CardTitle, CardText } from 'mdbreact';
 
 import '../App.css';
 
-const roundImg = {
-  marginTop: "20px",
-  borderRadius: "50%"
+const blockImg = {
+  marginTop: "10px",
+  marginBottom: "10px",
+  borderRadius: "5%"
 }
 
 export default class Home extends Component {
@@ -13,7 +14,15 @@ export default class Home extends Component {
     return(
       <div>
 
-        <img style={roundImg} src="https://res.cloudinary.com/poetrique/image/upload/v1538920604/developer-student-club/dsc.png" alt="Developer Student Club" title="Developer Student Club" />
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-sm-6">
+              <img style={blockImg} src="https://res.cloudinary.com/poetrique/image/upload/v1539293129/clients/leadcityfashion/lcufla_pink.png" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
 
         <h3 class="content">WHAT ARE DEVELOPER STUDENT CLUBS?</h3>
         <div class="container">
@@ -35,7 +44,6 @@ export default class Home extends Component {
           </div>
         </div>
 
-        <h3 class="content">DSC MEMBERSHIP BENEFITS</h3>
         <div class="container">
           <div class="row">
             <div class="col"></div>
