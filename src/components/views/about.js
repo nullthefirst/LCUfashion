@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 
 import '../App.css';
 
-const roundImg = {
-  marginTop: "20px",
-  borderRadius: "50%"
+const blockImg = {
+  marginTop: "10px",
+  marginBottom: "10px",
+  borderRadius: "5%"
 }
 
 export default class About extends Component {
@@ -12,16 +13,25 @@ export default class About extends Component {
     return(
       <div>
 
-        <img style={roundImg} src="" alt="Developer Student Club" title="Developer Student Club" />
-
         <h3 class="content">About Us</h3>
+
         <div class="container">
           <div class="row">
             <div class="col"></div>
             <div class="col-12 col-sm-6">
-              <p className="blue-text">DSC is a Google Developers program for university students, designed to help them build their mobile and web development skills and knowledge. It is open to any student, ranging from novice developers who are just starting, to advanced developers who want to further their skills. It is intended to be a space for students to learn and collaborate as they solve mobile and web development problems.</p>
-              <p className="blue-text">This is part of Google’s commitment to provide mobile developer training to 100,000 Africans to develop world-class apps in the next 5 years. The Developer Student Clubs (DSC) is a grassroots channel through which we provide development skills for students, towards employability. The program invites students enrolled in African universities to act as “agent of change” on their campus(es).</p>
-              <p className="blue-text">DSCs follow a model of peer-to-peer learning. We select student Leads who train other students, help them apply the skills by developing solutions for local businesses, and host showcases for students to present their prototypes/solutions. This not only upskills current developers, but also inspires new developers thus realizing rapid scale.</p>
+              <img style={blockImg} src="https://res.cloudinary.com/poetrique/image/upload/v1539293129/clients/leadcityfashion/lcufla_pink.png" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+
+        <div class="content container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-sm-6">
+              <p className="blue-text">We infused our main objectives into the offical Lead City University logo. This is simply because of the values we're ready to offer.</p>
+              <p className="blue-text">In the logo you can see a camera, this symbolizes the top-notch photograpghy we will teach all our students. The fashionable gentlelady depicts the fashion we are bringing to the university community&nbsp;- sewing, illustration, pattern drafting and more -&nbsp;that can compete with any standard in the world.</p>
+              <p className="blue-text">This is definitely going to be one of the biggest things in Ibadan. It is the first of its kind in any Nigerian institution, and we are glad it is coming to Lead City, because we always <b>LEAD</b>.</p>
             </div>
             <div class="col"></div>
           </div>
