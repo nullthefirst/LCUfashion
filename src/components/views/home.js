@@ -55,8 +55,6 @@ export default class Home extends Component {
                     <p><b>Photography</b></p>
                     <p><b>Pattern Drafting</b></p>
                     <p><b>Fashion Designing</b></p>
-                    <br />
-                    <h5><b>Lead City Fashion & Lifestyle Academy</b></h5>
                     </CardText>
                 </CardBody>
               </Card>
