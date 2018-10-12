@@ -34,7 +34,7 @@ export default class Social extends Component {
                   <a href="https://www.instagram.com/lcfl_academy" target="_blank" rel="noopener noreferrer" className="blue-text"><i class="fab fa-instagram fa-3x"></i></a>
                 </div>
                 <div class="col-4">
-                  <a href="#" className="blue-text"><i class="fab fa-facebook fa-3x"></i></a>
+                  <i class="fab fa-facebook fa-3x"></i>
                 </div>
                 <div class="col"></div>
               </div>
