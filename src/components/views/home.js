@@ -50,11 +50,13 @@ export default class Home extends Component {
             <div class="col-12 col-sm-8">
               <Card>
                 <CardBody>
-                  <CardTitle>Introduction to Web Development & Github</CardTitle>
+                  <CardTitle>We offer 3 month Programs in</CardTitle>
                   <CardText>
-                    <p>Venue: ROC World Entrepreneurial Development Centre, Vocational Unit 1 Building</p>
+                    <p>Photography</p>
+                    <p>Pattern Drafting</p>
+                    <p>Fashion Designing</p>
                     <br />
-                    <p><b>Lead City University, Ibadan - NG</b></p>
+                    <h4><b>Lead City Fashion & Lifestyle Academy</b></h4>
                     </CardText>
                 </CardBody>
               </Card>

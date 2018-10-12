@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import '../App.css';
 
 const blockImg = {
-  marginTop: "20px",
+  marginTop: "10px",
+  marginBottom: "10px",
   borderRadius: "5%"
 }
 
@@ -16,11 +17,113 @@ export default class Facilities extends Component {
 
         <div class="container">
           <div class="row">
-            <div class="col"></div>
-            <div class="col-12 col-sm-6">
-              <img style={blockImg} src="https://res.cloudinary.com/poetrique/image/upload/v1539293123/clients/leadcityfashion/lcufla_plain.jpg" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
             </div>
-            <div class="col"></div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
+            <div class="col-12 col-sm-4">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
+            </div>
           </div>
         </div>
 
@@ -28,6 +131,7 @@ export default class Facilities extends Component {
           <div class="row">
             <div class="col"></div>
             <div class="col-12 col-sm-6">
+              <img style={blockImg} src="" alt="Lead City Fashion & Lifestyle Academy" title="Lead City Fashion & Lifestyle Academy" width="100%" height="auto" />
             </div>
             <div class="col"></div>
           </div>
