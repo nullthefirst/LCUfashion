@@ -18,6 +18,16 @@ export default class Social extends Component {
           <div class="row">
             <div class="col"></div>
             <div class="col-12 col-sm-6">
+              <span className="blue-text">+234(0)8178791781</span>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-sm-6">
               <div class="row">
                 <div class="col"></div>
                 <div class="col-4">
