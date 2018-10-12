@@ -52,11 +52,11 @@ export default class Home extends Component {
                 <CardBody>
                   <CardTitle>We offer 3 month Programs in</CardTitle>
                   <CardText>
-                    <p>Photography</p>
-                    <p>Pattern Drafting</p>
-                    <p>Fashion Designing</p>
+                    <p><b>Photography</b></p>
+                    <p><b>Pattern Drafting</b></p>
+                    <p><b>Fashion Designing</b></p>
                     <br />
-                    <h4><b>Lead City Fashion & Lifestyle Academy</b></h4>
+                    <h5><b>Lead City Fashion & Lifestyle Academy</b></h5>
                     </CardText>
                 </CardBody>
               </Card>
