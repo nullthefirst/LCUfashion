@@ -56,6 +56,14 @@ export default class SignUp extends Component {
 
           <div class="row content">
             <div class="col"></div>
+            <div class="col-12 col-sm-8" style={xStyle}>
+              <p className="blue-text">Thank you for filling the form. CLick the button below to continue</p>
+            </div>
+            <div class="col"></div>
+          </div>
+
+          <div class="row content">
+            <div class="col"></div>
             <div class="col">
               {this.renderRedirect()}
               <Button style={yStyle} type="submit" color="pink" onClick={this.setRedirect}>Continue</Button>
